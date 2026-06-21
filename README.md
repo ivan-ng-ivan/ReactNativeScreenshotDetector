@@ -147,7 +147,7 @@ Before publishing:
 ## ⚠️ Disclaimer — use at your own risk
 
 **This software is provided "as is", without warranty of any kind.** The author
-(ivan-ng-ivan / ivan-ng-ivan) is **not responsible** for any legal issues, losses,
+(ivan-ng-ivan) is **not responsible** for any legal issues, losses,
 damages, data leaks, hacks, or any consequence arising from the violation of any
 laws or regulations resulting from the use of this library.
 
