@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-screenshot-detector": ["./src/index"]
+      "@ivan-ng-ivan/react-native-screenshot-detector": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

@@ -12,7 +12,7 @@ import {
   addScreenshotListener,
   isScreenBeingCaptured,
   isScreenCaptureSupported,
-} from 'react-native-screenshot-detector';
+} from '@ivan-ng-ivan/react-native-screenshot-detector';
 
 export default function App() {
   const [events, setEvents] = useState<string[]>([]);

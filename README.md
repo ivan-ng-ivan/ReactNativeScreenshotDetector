@@ -35,13 +35,13 @@ safe no-ops (`isScreenCaptureSupported` is `false`).
 ## Installation
 
 ```sh
-npm install react-native-screenshot-detector
+npm install @ivan-ng-ivan/react-native-screenshot-detector
 ```
 
 or
 
 ```sh
-yarn add react-native-screenshot-detector
+yarn add @ivan-ng-ivan/react-native-screenshot-detector
 ```
 
 ### iOS
@@ -68,7 +68,7 @@ import {
   addScreenCaptureListener,
   isScreenBeingCaptured,
   isScreenCaptureSupported,
-} from 'react-native-screenshot-detector';
+} from '@ivan-ng-ivan/react-native-screenshot-detector';
 
 function useScreenshotGuard() {
   useEffect(() => {
@@ -130,9 +130,9 @@ Resolves whether the screen is currently being captured. Reflects
 
 Before publishing:
 
-1. Verify the package name is free: `npm view react-native-screenshot-detector`
-   (a `404` means available; otherwise use a scoped name like
-   `@ivan-ng-ivan/react-native-screenshot-detector`).
+1. This package is published under the scoped name
+   `@ivan-ng-ivan/react-native-screenshot-detector`. Scoped packages are private
+   by default, so `publishConfig.access` is set to `public` in `package.json`.
 2. Set/bump the `version` in `package.json` (e.g. `0.1.0`).
 3. Build and inspect the published contents:
    ```sh
@@ -142,7 +142,7 @@ Before publishing:
    npm pack --dry-run # inspect the tarball before publishing
    ```
 4. Create an npm account, enable 2FA, then `npm login`.
-5. Publish: `npm publish` (add `--access public` if you use a scoped name).
+5. Publish: `npm publish --access public`.
 
 ## ⚠️ Disclaimer — use at your own risk
 
