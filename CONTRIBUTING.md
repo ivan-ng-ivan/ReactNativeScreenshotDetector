@@ -106,3 +106,23 @@ When you're sending a pull request:
 - Review the documentation to make sure it looks good.
 - Follow the pull request template when opening a pull request.
 - For pull requests that change the API or implementation, discuss with maintainers first by opening an issue.
+
+### Publishing a new release
+
+Releases are published to npm under the scoped package name
+`@ivan-ng-ivan/react-native-screenshot-detector`. To publish a new version:
+
+1. Bump the `version` in `package.json` following [semver](https://semver.org/).
+2. Build and inspect the package contents:
+   ```sh
+   nvm use            # Node version from .nvmrc
+   yarn               # install dependencies
+   yarn prepare       # build lib/ with react-native-builder-bob
+   npm pack --dry-run # inspect the tarball before publishing
+   ```
+3. Log in to npm with an account that can publish to the `@ivan-ng-ivan` scope,
+   with 2FA enabled: `npm login`.
+4. Publish (the package is public via `publishConfig.access` in `package.json`):
+   ```sh
+   npm publish
+   ```

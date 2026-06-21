@@ -126,35 +126,15 @@ Resolves whether the screen is currently being captured. Reflects
 - **Android:** registers an `Activity.ScreenCaptureCallback` via
   `registerScreenCaptureCallback` (API 34+), tied to your activity's lifecycle.
 
-## Publishing to npm (for maintainers)
+## Disclaimer
 
-Before publishing:
-
-1. This package is published under the scoped name
-   `@ivan-ng-ivan/react-native-screenshot-detector`. Scoped packages are private
-   by default, so `publishConfig.access` is set to `public` in `package.json`.
-2. Set/bump the `version` in `package.json` (e.g. `0.1.0`).
-3. Build and inspect the published contents:
-   ```sh
-   nvm use            # Node 22 (see .nvmrc)
-   yarn               # install dependencies
-   yarn prepare       # build lib/ with builder-bob
-   npm pack --dry-run # inspect the tarball before publishing
-   ```
-4. Create an npm account, enable 2FA, then `npm login`.
-5. Publish: `npm publish --access public`.
-
-## ⚠️ Disclaimer — use at your own risk
-
-**This software is provided "as is", without warranty of any kind.** The author
-(ivan-ng-ivan) is **not responsible** for any legal issues, losses,
-damages, data leaks, hacks, or any consequence arising from the violation of any
-laws or regulations resulting from the use of this library.
-
-**By installing and using this library in your project, you acknowledge and agree
-that you accept all risk yourself.** It is your responsibility to ensure your use
-of screenshot / screen-capture detection complies with all applicable laws,
-regulations, app-store policies, and privacy requirements in your jurisdiction.
+This library is provided "as is" under the [MIT License](LICENSE), without
+warranty of any kind — **you use it at your own risk**. You are solely
+responsible for ensuring your use of screenshot and screen-capture detection
+complies with all applicable laws, regulations, app-store policies, and privacy
+requirements. The author accepts no liability for any loss, damage, data leak,
+hack, or legal consequence arising from its use. **By installing or using this
+library, you agree to accept that risk yourself.**
 
 ## License
 
