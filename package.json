@@ -1,5 +1,5 @@
 {
-  "name": "@ivan-ng-ivan/react-native-screenshot-detector",
+  "name": "@ivan.ng/react-native-screenshot-detector",
   "version": "0.1.0",
   "description": "Detect device screenshots (iOS & Android) and screen recording (iOS) in React Native.",
   "main": "./lib/module/index.js",

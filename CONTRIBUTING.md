@@ -97,7 +97,7 @@ The `package.json` file contains various scripts for common tasks:
 ### Publishing a new release
 
 Releases are published to npm under the scoped package name
-`@ivan-ng-ivan/react-native-screenshot-detector`. To publish a new version:
+`@ivan.ng/react-native-screenshot-detector`. To publish a new version:
 
 1. Bump the `version` in `package.json` following [semver](https://semver.org/).
 2. Build and inspect the package contents:

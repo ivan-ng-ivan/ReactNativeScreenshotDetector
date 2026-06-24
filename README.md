@@ -35,13 +35,13 @@ safe no-ops (`isScreenCaptureSupported` is `false`).
 ## Installation
 
 ```sh
-npm install @ivan-ng-ivan/react-native-screenshot-detector
+npm install @ivan.ng/react-native-screenshot-detector
 ```
 
 or
 
 ```sh
-yarn add @ivan-ng-ivan/react-native-screenshot-detector
+yarn add @ivan.ng/react-native-screenshot-detector
 ```
 
 ### iOS
@@ -68,7 +68,7 @@ import {
   addScreenCaptureListener,
   isScreenBeingCaptured,
   isScreenCaptureSupported,
-} from '@ivan-ng-ivan/react-native-screenshot-detector';
+} from '@ivan.ng/react-native-screenshot-detector';
 
 function useScreenshotGuard() {
   useEffect(() => {
