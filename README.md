@@ -136,6 +136,16 @@ requirements. The author accepts no liability for any loss, damage, data leak,
 hack, or legal consequence arising from its use. **By installing or using this
 library, you agree to accept that risk yourself.**
 
+**Acceptable use.** You agree not to use this library for any unlawful purpose,
+or in any manner that infringes the privacy, intellectual-property, or other
+rights of any person. You are solely responsible for how you integrate and use
+it.
+
+**Indemnification.** To the fullest extent permitted by law, you agree to
+indemnify and hold harmless the author from any claims, damages, liabilities,
+losses, or expenses (including legal fees) arising out of or related to your use
+of this library or your violation of any law or third-party right.
+
 ## License
 
 [MIT](LICENSE) © 2026 ivan-ng-ivan
